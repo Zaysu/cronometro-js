@@ -1,0 +1,24 @@
+<html>
+    <head> 
+        <title> Campeonato Carioca </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+       <script src="index.js"> </script> 
+    </head>
+
+    <body>
+        <div id="contador">
+            <div class="reloj" id="Horas">00</div>
+            <div class="reloj" id="Minutos">:00</div>
+            <div class="reloj" id="Segundos">:00</div>
+            <div class="reloj" id="Centesimas">:00</div>
+            <div class="btn btn-dark" id="botoes">
+            <input type="button" class="btn btn-primary" id="inicio" value=" &#9658;" onclick="inicio();">
+            <input type="button" class="btn btn-warning" id="parar" value=" &#8718;" onclick="parar();" disabled>
+            <input type="button" class="btn btn-success" id="continuar" value=" &#8634;" onclick="inicio();" disabled>
+            <input type="button" class="btn btn-danger" id="reinicio" value=" &#8635;" onclick="reinicio();" disabled>
+        </div>
+        </div>
+
+    </body>
+
+</html>
